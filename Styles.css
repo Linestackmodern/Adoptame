@@ -1,0 +1,187 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilos de encabezado */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+  }
+  
+  /* Estilos de secciones */
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  #hero {
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    margin-top: 100px;
+  }
+  
+  .hero-content h1 {
+    font-size: 40px;
+    color: #fff;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .about-content {
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .pets-content {
+    text-align: center;
+  }
+  
+  .pets-content h2 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .pet-card {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pet-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .pet-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  .pet-card p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .adopt-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .contact-content {
+    text-align: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  .contact-content p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+    /* Estilos del botón de envío del formulario */
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ff5722;
+  }
+  
